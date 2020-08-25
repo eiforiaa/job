@@ -165,7 +165,7 @@ font-weight: 100;
 
 }
 
-/*.benefits{
+.benefits{
 padding-top: 90px;
 	padding-bottom: 160px;
 	background: url('../img/fon2.jpg') no-repeat center top/ cover;
@@ -173,10 +173,36 @@ padding-top: 90px;
 .general{
 	display: flex;
 	justify-content: space-between;
+	/*margin-top: 50px;*/
 		
 }
 .separate{
-	width: 240px;
-	background: url('../img/icons8-rabbit.jpg') no-repeat left top;
-	padding-left: 100px;
-}*/
+
+	width: 260px;
+	background: url('../img/icons8-rabbit.svg') no-repeat left top;
+	padding-left: 50px;
+}
+.magic{
+	
+	color: #000;
+	font-size: 14px;
+	font-style: 'Montserrat', sans-serif;
+	width: 208px;
+
+
+}
+.separate-procent{
+	/*width: 240px;*/
+	background: url('../img/icons8-percent.svg') no-repeat left top;
+	
+}
+.separate-time{
+	/*width: 240px;*/
+	background: url('../img/icons8-time.svg') no-repeat left top;
+	
+}
+.separate-mail{
+	/*width: 240px;*/
+	background: url('../img/icons8-massages.svg') no-repeat left top;
+
+}
