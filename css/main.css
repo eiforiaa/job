@@ -98,10 +98,12 @@ h1{
 	}
 	.offer{
 		margin-top: 138px;
-		width: 500px;
+		width: 600px;
 		margin: 0 auto;
-		display: flex;
+		/*display: flex;*/
 		text-align: center;
+		/*flex-direction: column;*/
+
 	}
 	p{
 		color: #fff;
@@ -113,3 +115,43 @@ h1{
 		font-size: 24px;
 		line-height: 1.6em;
 	}
+	.btn{
+background: #DF0202;
+color: #fff;
+font-family: 'Montserrat', sans-serif;
+/*display: block;*/
+width: 133px;
+padding: 19px 0;
+text-align: center;
+text-decoration: none;
+
+}
+
+
+
+.form{
+	margin-top: 74px;
+	display: inline-flex;
+	/*margin: 0 auto;
+	width: 650px;*/
+	justify-content: center;
+}
+.btn{
+	width: 133px;
+	height: 58px;
+}
+.btn-form{
+	border: 0;
+	
+	/*display: inline;
+	margin-left: 11px;*/
+}
+.input{
+width: 600px;
+	border: 1px solid #bfb8d1;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	height: 56px;
+	padding-left: 38px;
+		
+}
