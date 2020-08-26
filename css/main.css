@@ -178,20 +178,26 @@ padding-top: 90px;
 }
 .separate{
 
-	width: 260px;
-	background: url('../img/icons8-rabbit.svg') no-repeat left top;
+
+	/*width: 260px;
+*/	background: url('../img/icons8-rabbit.svg') no-repeat left top;
 	padding-left: 50px;
+	background-size: 37px;
+	/*width: 250px;*/
 }
-.magic{
-	
+.paragraph{
+
 	color: #000;
 	font-size: 14px;
 	font-style: 'Montserrat', sans-serif;
 	width: 208px;
+	margin: 0;
+	padding: 0;
 
 
 }
 .separate-procent{
+
 	/*width: 240px;*/
 	background: url('../img/icons8-percent.svg') no-repeat left top;
 	
@@ -203,6 +209,6 @@ padding-top: 90px;
 }
 .separate-mail{
 	/*width: 240px;*/
-	background: url('../img/icons8-massages.svg') no-repeat left top;
-
+	background: url('../img/icons8-messages.svg') no-repeat left top;
+background-size: 37px;
 }
