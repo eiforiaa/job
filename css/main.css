@@ -181,6 +181,7 @@ section{
 	margin-top: 50px;
 		
 }
+
 .separate{
 	background: url('../img/icons8-rabbit.svg') no-repeat left top;
 	padding-left: 50px;
@@ -272,23 +273,43 @@ justify-content: space-between;
  justify-content: space-between;
  margin-bottom: 100px;
 
- /*text-align: center;*/
+}
+.number{
+	
+	 color: white;
+  background: red;
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.block{
+	margin-top: -40px;
+	/*padding-bottom: 40px;
+	margin-bottom: 40px;*/
+	/*padding-top: -30px;*/
 }
 .action{
-	 margin: 0 auto;
-		background: url('../img/icons8-search.svg') no-repeat left top;
+	 /*margin: 0 auto;*/
+	background: url('../img/icons8-search.svg') no-repeat left top;
 	padding-left: 30px;
-	/*background-size: 37px;*/
+	text-align: center;
+	margin-top: 40px;
+
 }
 .action-todo{
 	background: url('../img/icons8-todo.svg') no-repeat left top;
 	background-size: 66px;
+	padding-right: 20px;
+	
 
-	/*padding-left: 50px;*/
 }
 .action-wallet{
 	background: url('../img/icons8-wallet.svg') no-repeat left top;
-	/*background-size: 37px;*/
+	padding-right: 20px;
 }
 .action-messages{
 	background: url('../img/icons8-messages.svg') no-repeat left top;
@@ -313,21 +334,18 @@ color: white;
 
 }
 h3{
-	margin: 0 auto;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+margin: 0 auto;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
 font-size: 12px;
 line-height: 17px;
-/*color: #000;*/
-/*margin-top: 30px;*/
 padding-top: 30px;
 font-weight: 300;
 }
 
 
 .menu_footer{
-		/*color: #fff;*/
-			font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: normal;
 }
