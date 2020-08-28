@@ -378,3 +378,100 @@ h4{
 /*footer a{
 	color: white;
 }*/
+/* 992px-1200px */
+@media screen and (max-width: 1200px) {
+	.container{
+		width: 960px;
+	}
+	body{
+		overflow:  hidden;
+	}
+
+	header{
+		background: url(../img/fon3.jpg) no-repeat center top / cover;
+	color: #fff;
+	height: 100vh;
+		  background-size: cover fixed;
+
+	}
+
+
+	.general{
+		display: flex;
+		flex-direction: column;
+		/*margin-top: 20px;
+		margin-bottom: 20px;*/
+	}
+	.adaptive{
+		margin-top: 40px;
+
+	}
+	
+	/*.price{
+		flex-direction: column;
+	}*/
+	.portfolio{
+		flex-direction: column;
+		background-size: 50px;
+	}
+	/*.act{
+		flex-direction: column;
+	}*/
+	
+	/*.skill{
+		width: auto;
+		margin-bottom: 30px;
+	}*/
+}
+/* 768px-992px */
+/*@media screen and (max-width: 992px) {
+	.container{
+		width: 720px;
+	}
+	.wrapper{
+		flex-direction: column;
+	}
+	.offer{
+		width: 100%;
+	}
+	.intro{
+		width: auto;
+	}
+	.desktop{
+		display: block;
+		width: 549px;
+		margin: 72px auto 0;
+	}
+	.skills{
+		flex-direction: column;
+	}
+	.skill{
+		width: auto;
+		margin-bottom: 30px;
+	}
+
+
+}
+/* 576px-768px */
+/*@media screen and (max-width: 768px) {
+ .container{
+		width: 540px;
+	}
+	.desktop{
+	width: 100%;
+	}
+	.input{
+		width: 100%;
+	}
+	.btn{
+		margin-left: 0;
+		margin-top: 15px;
+		width: 100%;
+	}
+}
+/* 0px-576px */
+/*@media screen and (max-width: 576px){
+.container{
+		width: 90%;
+	}
+}**//*/

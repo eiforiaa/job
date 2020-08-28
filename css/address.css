@@ -1,0 +1,156 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-size: 16px;
+}
+header{
+	background: url(../img/fon2.jpg) no-repeat center top / cover;
+	color: #fff;
+	height: 100vh;
+
+}
+.container{
+	margin: 0 auto;
+	width: 1170px;
+}
+.logo{
+	/*float: left;*/
+	
+}
+h1, h2, h3, h4, h5, h6{
+	padding:0;
+	margin: 0;
+	text-transform: uppercase;
+}
+a {
+	text-decoration: none;
+	color: #000;
+
+}
+*{ box-sizing: border-box; }
+
+.nav{
+	display: flex;
+	align-items: center;
+	
+	background: #fff;
+	color: #000;
+	width: 100%;
+	height: 80px;
+}
+.wrapper{
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+ul,li{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.menu{
+		color: #000;
+}
+.menu li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+
+	
+}
+
+.menu li{
+	margin-right: 40px;
+
+}
+.main{
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: red;
+
+	
+}
+.tel{
+
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: auto;
+	/*float: right;*/
+	
+}
+.phone{
+	display: block;
+	background: url(../img/icons8-phone.svg) no-repeat left top;
+	width: 200px;	
+
+}
+h1{
+	color: red;
+	font-size: 14px;
+	font-style: 'Montserrat', sans-serif;
+	}
+
+
+
+
+
+
+
+
+
+	footer{
+	background: #313131;
+color: white;
+	color: #fff;
+	padding-top: 60px;
+	padding-bottom: 30px;
+
+}
+h3{
+margin: 0 auto;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+line-height: 17px;
+padding-top: 30px;
+font-weight: 300;
+}
+
+
+.menu_footer{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+}
+.menu_footer li a{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: underline;
+	line-height: 20px;
+	font-size: 12px;
+	text-decoration-color: white;
+	line-height: 1.6em;
+
+}
+
+.menu_footer li{
+	margin-right: 40px;
+
+}
+h4{
+	font-style: 12px;
+	/*color: #fff;*/
+	font-style: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.tel_footer{
+	color: white;
+	margin-top: 10px;
+}
