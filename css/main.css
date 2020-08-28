@@ -183,10 +183,7 @@ section{
 	background: url('../img/icons8-rabbit.svg') no-repeat left top;
 	padding-left: 50px;
 	background-size: 37px;
-	/*border: solid 3px red;
-	border-top: 100px;
-	border-left: 4px;
-	border-right: 4px;*/
+	
 
 	
 	}
@@ -234,14 +231,14 @@ section{
 	background: url('../img/icons8-percent.svg') no-repeat left top;
 }
 .separate-time{
-	/*width: 240px;*/
-	background: url('../img/icons8-time.svg') no-repeat left top;
 	
+	background: url('../img/icons8-time.svg') no-repeat left top;
+	/*background-size: 35px;*/
 }
 .separate-mail{
-	/*width: 240px;*/
-	background: url('../img/icons8-messages.svg') no-repeat left top;
-background-size: 37px;
+	
+	background: url('../img/icons8-mailing.svg') no-repeat left top;
+/*background-size: 37px;*/
 }
 .price{
 		background: 
