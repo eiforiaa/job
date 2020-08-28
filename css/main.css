@@ -168,6 +168,9 @@ font-weight: 100;
 .benefits{
 padding-top: 90px;
 	padding-bottom: 160px;
+/*	background: url('../img/fon2.jpg') no-repeat center top/ cover;*/
+}
+section{
 	background: url('../img/fon2.jpg') no-repeat center top/ cover;
 }
 .general{
@@ -177,13 +180,50 @@ padding-top: 90px;
 		
 }
 .separate{
-
-
-	/*width: 260px;
-*/	background: url('../img/icons8-rabbit.svg') no-repeat left top;
+	background: url('../img/icons8-rabbit.svg') no-repeat left top;
 	padding-left: 50px;
 	background-size: 37px;
-	/*width: 250px;*/
+	/*border: solid 3px red;
+	border-top: 100px;
+	border-left: 4px;
+	border-right: 4px;*/
+
+	
+	}
+.border_top{
+	width: 260px;
+	position: relative;
+}
+.border_bottom{
+	width: 260px;
+	position: relative;
+}
+.border_bottom:after {
+  content: "";
+  position: absolute;
+  left: 25px;
+  right: 15px;
+  bottom: 5px;
+  /*margin-bottom: 20px;*/
+ /* margin-top: 20px;*/
+ margin-bottom: -30px;
+  top: 50px;
+  
+  border-bottom: 3px solid red;
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+}
+.border_top:after {
+  content: "";
+  position: absolute;
+  margin-bottom: 80px;
+  top: -40px;
+  left: 25px;
+  right: 15px;
+  bottom: 5px;
+  border-top: 3px solid red;
+  border-left: 3px solid red;
+  border-right: 3px solid red;
 }
 .paragraph{
 
@@ -211,4 +251,19 @@ padding-top: 90px;
 	/*width: 240px;*/
 	background: url('../img/icons8-messages.svg') no-repeat left top;
 background-size: 37px;
+}
+.price{
+		background: 
+	}
+	.title{
+		color: #000;
+		font-weight: bold;
+		font-size: 24px;
+		margin-bottom: 56px;
+
+	}
+
+.portfolio{
+display: flex;
+justify-content: space-between;
 }
