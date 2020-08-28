@@ -204,11 +204,8 @@ section{
   left: 25px;
   right: 15px;
   bottom: 5px;
-  /*margin-bottom: 20px;*/
- /* margin-top: 20px;*/
- margin-bottom: -30px;
-  top: 50px;
-  
+ margin-bottom: -38px;
+  top: 70px;
   border-bottom: 3px solid red;
   border-left: 3px solid red;
   border-right: 3px solid red;
@@ -226,21 +223,15 @@ section{
   border-right: 3px solid red;
 }
 .paragraph{
-
 	color: #000;
 	font-size: 14px;
 	font-style: 'Montserrat', sans-serif;
 	width: 208px;
 	margin: 0;
 	padding: 0;
-
-
 }
 .separate-procent{
-
-	/*width: 240px;*/
 	background: url('../img/icons8-percent.svg') no-repeat left top;
-	
 }
 .separate-time{
 	/*width: 240px;*/
